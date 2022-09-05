@@ -1,0 +1,32 @@
+#color_container
+    width: 220px
+    height: 220px
+    border-radius: 10px
+    display: flex
+    flex-direction: column-reverse
+    max-width: 50%
+    
+
+    @media (max-width: 568px)
+        width: 180px
+        height: 180px
+
+    @media (max-width: 480px)
+        width: 160px
+        height: 160px
+
+    #code
+        width: 100%
+        text-align: center
+        background-color: #1e1e1e5e
+        color: #fffaff
+        padding: .5em 0
+        border-bottom-left-radius: 9px
+        border-bottom-right-radius: 9px
+        cursor: pointer
+        transition: .3s
+
+        &:hover
+            font-size: 1.2em
+            color: #FFF
+            font-weight: 600

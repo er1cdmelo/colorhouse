@@ -1,0 +1,97 @@
+#container
+    width: 600px
+    max-width: 95%
+    height: 260px
+    background-color: #0A2463
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 1em
+    border-radius: 10px
+    gap: 1em
+    position: relative
+
+    @media (max-width: 568px)
+        height: 220px
+        gap: .5em
+        padding: .5em
+
+    #favoritefalse
+        width: 48px
+        height: 48px
+        border-radius: 10px
+        background-color: #3E92CC
+        position: absolute
+        display: flex
+        justify-content: center
+        align-items: center
+        top: -24px
+        right: -24px
+        font-size: 1.5em
+        transition: .3s
+        cursor: pointer
+
+        @media (max-width: 480px)
+            width: 40px
+            height: 40px
+            top: -14px
+            right: -14px
+
+        svg
+            fill: #fff
+            transition: .3s
+
+        &:hover
+            transform: scale(1.07)
+
+            svg
+                fill: #fde039
+
+    #favoritetrue
+        width: 48px
+        height: 48px
+        border-radius: 10px
+        background-color: #3E92CC
+        position: absolute
+        display: flex
+        justify-content: center
+        align-items: center
+        top: -24px
+        right: -24px
+        font-size: 1.5em
+        transition: .3s
+        cursor: pointer
+
+        @media (max-width: 480px)
+            width: 40px
+            height: 40px
+            top: -14px
+            right: -14px
+
+        svg
+            color: #fde039
+
+    #remove
+        width: 48px
+        height: 48px
+        border-radius: 10px
+        background-color: #3E92CC
+        position: absolute
+        display: flex
+        justify-content: center
+        align-items: center
+        top: -24px
+        right: -24px
+        font-size: 1.5em
+        transition: .3s
+        cursor: pointer
+        color: #fff
+
+        @media (max-width: 480px)
+            width: 40px
+            height: 40px
+            top: -14px
+            right: -14px
+
+        &:hover
+            transform: scale(1.07)

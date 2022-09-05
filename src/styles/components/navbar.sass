@@ -1,0 +1,36 @@
+#nav 
+    background-color: #0A2463
+    display: flex
+    justify-content: center
+    align-items: center
+    
+    padding: 1.7em 0
+    width: 100%
+
+    ul
+        display: flex
+        list-style: none
+        width: 40%
+        min-width: 300px
+        justify-content: space-between
+        font-size: 1.2em
+
+        li
+            transition: .3s
+            cursor: pointer
+            color: #FFFAFF
+
+            &::after
+                content: ''
+                width: 0
+                height: 2px
+                margin-top: .2em
+                background-color: #fff
+                color: #fff
+                display: block
+                transition: .3s
+
+
+            &:hover
+                &::after
+                    width: 100%
