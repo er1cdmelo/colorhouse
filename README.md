@@ -1,5 +1,5 @@
 
-# 🔗 Color House
+# 🎨 Color House
 
 Color House is a app where you can create and manage color palettes.
 
